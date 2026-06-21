@@ -1,0 +1,23 @@
+[package]
+name = "numeric-range"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Parse and format compact integer-range strings like \"1,3-5,7\" (page ranges, CPU sets, line selections). Bidirectional, zero-dependency, no_std."
+documentation = "https://docs.rs/numeric-range"
+repository = "https://github.com/trananhtung/numeric-range"
+homepage = "https://github.com/trananhtung/numeric-range"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["range", "parse", "ranges", "page-range", "cpuset"]
+categories = ["parser-implementations", "no-std", "value-formatting"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
